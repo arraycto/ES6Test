@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TaskOptions>
   <TaskOptions>
-    <option name="arguments" value="$FilePath$ -o $FileDir$\$FileNameWithoutAllExtensions$.js -s" />
+    <option name="arguments" value="$FilePath$ -o $ProjectFileDir$\dist\$FileNameWithoutAllExtensions$.js -s" />
     <option name="checkSyntaxErrors" value="true" />
     <option name="description" value="Transpiles ECMAScript 6 code to ECMAScript 5" />
     <option name="exitCodeBehavior" value="ERROR" />
@@ -15,7 +15,7 @@
     <option name="outputFromStdout" value="false" />
     <option name="passParentEnvs" value="true" />
     <option name="program" value="D:/node/node_global/babel.cmd" />
-    <option name="scopeName" value="es6" />
+    <option name="scopeName" value="项目文件" />
     <option name="trackOnlyRoot" value="false" />
     <option name="workingDir" value="$ProjectFileDir$" />
     <envs />
