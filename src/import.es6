@@ -1,3 +1,3 @@
 
-import * as consts from 'exports';
+import consts from 'exports';
 console.log(consts.a);
